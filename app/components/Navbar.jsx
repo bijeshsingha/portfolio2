@@ -44,7 +44,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4">
         <Link
-          href={"/"}
+          href="#home"
           className="text-2xl md:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#087EE1] to to-[#05E8BA]"
         >
           <span>{`{`}</span>
