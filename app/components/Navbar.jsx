@@ -25,11 +25,11 @@ const navLinks = [
 ];
 
 const Navbar = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(globalThis.window?.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
-      setWindowWidth(window.innerWidth);
+      setWindowWidth(globalThis.window?.innerWidth);
     };
 
     window.addEventListener("resize", handleResize);
