@@ -9,12 +9,31 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>PostgreSQL</li>
-        <li>Manual Testing</li>
-        <li>Selenium</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>
+          Languages:{" "}
+          <span className="font-bold">JavaScript (ES6+), HTML5, CSS3</span>
+        </li>
+        <li>
+          Frameworks/Libraries:{" "}
+          <span className="font-bold">ReactJS, Next.js</span>
+        </li>
+        <li>
+          Development Tools:{" "}
+          <span className="font-bold">Webpack, Node.js, NPM</span>
+        </li>
+        <li>
+          APIs: <span className="font-bold">RESTful API consumption</span>
+        </li>
+        <li>
+          Optimization:{" "}
+          <span className="font-bold">
+            Page Load Time, Reusable UI Component with Data Binding
+          </span>
+        </li>
+        <li>
+          Other:{" "}
+          <span className="font-bold">Exposure to full-stack development</span>
+        </li>
       </ul>
     ),
   },
@@ -75,15 +94,12 @@ const AboutSection = () => {
         <div className="flex flex-col mt-4 md:mt-0 text-left h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg ">
-            I am currently learning web development and I am really enjoying it.
-            I love the challenge of learning new things and improving my skills.
-            I am always looking for new challenges and ways to improve my
-            abilities.
-            <br />I am a Mechanical Engineer by degree, and I had worked in an
-            IT company as a QA Engineer for 2 years and also developing my
-            frontend development skills alongside. I have acquired skills in
-            HTML, CSS, React, JavaScript. And building projects to level up my
-            skills to create more efficient and functional interface.
+            <span className="ml-3"> Enthusiastic </span> Front-end Web Developer
+            with a deep understanding of ReactJS and a passion for creating
+            optimized, user-friendly websites. Ability to troubleshoot and debug
+            applications, build reusable code, and adapt to fast-paced work
+            environments. Eager to collaborate with dynamic teams to produce
+            top-quality web experiences for users.
           </p>
 
           <div className="scroll-container overflow-x-auto scrollbar-hide flex flex-row  justify-start mt-8">

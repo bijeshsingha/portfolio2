@@ -7,6 +7,16 @@ import Link from "next/link";
 
 const HeroSection = () => {
 
+
+    const downloadFileAtURL = (url) =>{
+        const aTag = document.createElement('a')
+        aTag.href = url
+        aTag.setAttribute('download','')
+        document.appendChild(aTag)
+        aTag.click()
+        aTag.remove()
+    }
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -34,13 +44,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore
+            Driven by ReactJS expertise. Crafting seamless, user-focused web experiences.
           </p>
-          <div>
-            <button href="#about" className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-white bg-gradient-to-br from-[#087EE1] to-[#05E8BA]">
+          <div className="">
+            <Link href="#contact" className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-white bg-gradient-to-br from-[#087EE1] to-[#05E8BA]">
               Hire Me
-            </button>
+            </Link>
             <button className="px-1 py-1 rounded-full w-full bg-gradient-to-br from-[#087EE1] to to-[#05E8BA] sm:w-fit mr-4 bg-transparent hover:bg-slate-800 text-white  mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
