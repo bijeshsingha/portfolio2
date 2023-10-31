@@ -51,9 +51,9 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <button className="px-1 py-1 rounded-full w-full bg-gradient-to-br from-[#087EE1] to to-[#05E8BA] sm:w-fit mr-4 bg-transparent hover:bg-slate-800 text-white  mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <a href="/resume/Bijesh_Singha_.pdf" download className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
-              </span>
+              </a>
             </button>
           </div>
         </div>

@@ -94,12 +94,15 @@ const AboutSection = () => {
         <div className="flex flex-col mt-4 md:mt-0 text-left h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg ">
-            <span className="ml-3"> Enthusiastic </span> Front-end Web Developer
-            with a deep understanding of ReactJS and a passion for creating
-            optimized, user-friendly websites. Ability to troubleshoot and debug
-            applications, build reusable code, and adapt to fast-paced work
-            environments. Eager to collaborate with dynamic teams to produce
-            top-quality web experiences for users.
+            <span className="ml-3"></span> 👋 Hello! I'm Bijesh, a passionate
+            React developer with a keen interest in building intuitive, dynamic,
+            and user-friendly web applications. Over the past 6 months,
+            I've immersed myself in the world of React. Skilled in component
+            architecture, state management, and hooks, I prioritize responsive
+            and clean-coded solutions. I thrive in collaborative settings and
+            keep up with the latest in React. Seeking a role where I can
+            contribute and grow, I'm eager to join a team valuing innovation.
+            Check out my portfolio and GitHub for my work. Let's connect!
           </p>
 
           <div className="scroll-container overflow-x-auto scrollbar-hide flex flex-row  justify-start mt-8">
