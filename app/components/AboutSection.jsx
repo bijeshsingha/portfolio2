@@ -43,8 +43,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Scrimba</li>
-        <li>National Institute of Technology, Silchar</li>
         <li>LTI Training</li>
+        <li>B.Tech in ME - National Institute of Technology, Silchar - 7.45/10</li>
+        <li>Class X - CBSE - 8/10</li>
+        <li>Class XII - CBSE - 78.4%</li>
       </ul>
     ),
   },
