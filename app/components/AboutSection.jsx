@@ -44,7 +44,9 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Scrimba</li>
         <li>LTI Training</li>
-        <li>B.Tech in ME - National Institute of Technology, Silchar - 7.45/10</li>
+        <li>
+          B.Tech in ME - National Institute of Technology, Silchar - 7.45/10
+        </li>
         <li>Class X - CBSE - 8/10</li>
         <li>Class XII - CBSE - 78.4%</li>
       </ul>
@@ -55,7 +57,14 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>QA Engineer at LTIMindtree</li>
+        <li>
+          <a
+            href="/resume/Service_Certificate.pdf"
+            className="hover:font-bold text-white"
+          >
+            QA Engineer at LTIMindtree
+          </a>
+        </li>
       </ul>
     ),
   },
@@ -64,11 +73,45 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Advanced React, Scrimba</li>
-        <li>JavaScript, HackerRank</li>
-        <li>Problem Solving (Intermediate), HackerRank</li>
-        <li>Oracle Database: SQL Fundamentals, HackerRank</li>
-        <li>LTI Trainee, LTI</li>
+        <li>
+          <a
+            href="https://scrimba.com/certificate/uBwrNwtW/greact"
+            target="_blank"
+            className="hover:font-bold text-white"
+          >
+            Advanced React, Scrimba
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.hackerrank.com/certificates/eb89e4c3d8c4"
+            target="_blank"
+            className="hover:font-bold text-white"
+          >
+            JavaScript, HackerRank
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.hackerrank.com/certificates/cf6c7866233e"
+            target="_blank"
+            className="hover:font-bold text-white"
+          >
+            Problem Solving (Intermediate), HackerRank
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.hackerrank.com/certificates/d05822652dfc"
+            target="_blank"
+            className="hover:font-bold text-white"
+          >
+            Oracle Database: SQL Fundamentals, HackerRank
+          </a>
+        </li>
+        <li>
+          <a>LTI Trainee, LTI</a>
+        </li>
       </ul>
     ),
   },
@@ -98,8 +141,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg ">
             <span className="ml-3"></span> 👋 Hello! I'm Bijesh, a passionate
             React developer with a keen interest in building intuitive, dynamic,
-            and user-friendly web applications. Over the past 6 months,
-            I've immersed myself in the world of React. Skilled in component
+            and user-friendly web applications. Over the past 6 months, I've
+            immersed myself in the world of React. Skilled in component
             architecture, state management, and hooks, I prioritize responsive
             and clean-coded solutions. I thrive in collaborative settings and
             keep up with the latest in React. Seeking a role where I can

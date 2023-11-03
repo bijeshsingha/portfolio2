@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description:
-      "state management with React Context API, it also has use case of various react hooks such as useState, useEffcts, useRefs, useContext etc., make use of Routes, Link and NavLink from react-router-dom",
+      "Used React Context API to manage state. Used React Hooks like useState, useContext, useEffect, useRefs, and custom hooks as well. Used React Router, Link, NavLink, Switch.",
     image: "/images/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/bijeshsingha/portfolio",
@@ -16,7 +16,7 @@ const projectsData = [
     id: 2,
     title: "Movie search app",
     description:
-      "conditional rendering, use of hooks like useState and useEffect, Side Effects and EventListeners are used",
+      "conditional rendering, use of hooks like useState and useEffect, Side Effects and EventListeners",
     image: "/images/img2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/bijeshsingha/movie_search_app",
@@ -36,7 +36,7 @@ const projectsData = [
     id: 4,
     title: "Quizzical Application",
     description:
-      "Use of API to retrieve data and present, conditional rendering, resuable components, use of props and state, use of hooks like useEffects",
+      "Fetch Quiz questions from API, passing query for category. Made use of React Hooks, useEffects, useState. Functional components and conditional rendering",
     image: "/images/Browser1.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/bijeshsingha/quizzical",
