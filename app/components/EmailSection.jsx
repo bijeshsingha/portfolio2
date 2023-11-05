@@ -3,6 +3,7 @@ import React, { useCallback, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import SendIcon from '@mui/icons-material/Send';
 
 const EmailSection = () => {
   const [formData, setFormData] = useState({
@@ -163,9 +164,8 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-green-500 font-medium text-white py-2.5 px-5 hover:bg-green-600 rounded-lg w-full"
-            >
-              Send
+              className="flex items-center justify-center gap-2 bg-green-500 font-medium text-white py-2.5 px-5 hover:bg-green-600 rounded-lg w-full"
+            >Send<SendIcon />
             </button>
           </form>
         )}
