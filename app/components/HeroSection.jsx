@@ -43,8 +43,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-xl">
-            Driven by ReactJS expertise. Crafting seamless, user-focused web
-            experiences.
+            Driven by ReactJS. Crafting seamless, user-focused web experiences.
           </p>
           <div className="">
             <button className="px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-white hover:bg-slate-200 text-white bg-gradient-to-br from-[#087EE1] to-[#05E8BA]">
