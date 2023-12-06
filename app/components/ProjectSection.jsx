@@ -24,13 +24,13 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Dashboard",
+    title: "Bookshelf app",
     description:
-      "complete state management with React Context API, it also has use case of various react hooks such as useState, useEffcts, useRefs, useContext etc., make use of Routes, Link and NavLink from react-router-dom, make use of Syncfusion UI components and use tailwind-CSS framework",
-    image: "/images/dashboard.png",
+      "Screens and Functionality: admin window: to add books, show admin window: to view books, search boks, edit books, delete books, books page to view detail of a particular book, each book contains details of Title, ISBN number, Category, Row number, cost, count, availability.",
+    image: "/images/bookshelf3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/bijeshsingha/dashboardApplication/",
-    previewUrl: "https://pie-dashboard.netlify.app/",
+    gitUrl: "https://github.com/bijeshsingha/bookshelf-app",
+    previewUrl: "https://bookshelf-app-pearl.vercel.app/",
   },
   {
     id: 4,
